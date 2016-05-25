@@ -3,9 +3,9 @@ sum = 0
 generated_number.each do |row|
   row.each do |item|
     if item < 0
-      sum += item      
+      sum += item
+      puts item if item < 0      
     end
-    puts item if item < 0
   end
 end
 puts 'sum' => sum

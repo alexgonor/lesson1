@@ -4,7 +4,7 @@ generated_number.each do |row|
   row.each do |item|
     if item < 0
       sum += item
-      puts item if item < 0      
+      puts item     
     end
   end
 end
